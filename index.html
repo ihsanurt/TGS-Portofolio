@@ -2,127 +2,170 @@
 <html lang="en">
 <head>
     <title>Tugas Potofolio</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1> PORTOFOLIO</h1>
     
-    <img src="foto.jpeg" width="230" height="300">
 
-    <h2>TENTANG DIRI</h2>
+    <nav class="nav-container">
+        <a href="mailto:ihsnr01@gmai.com"
+        class="nav-mail">ihsnr01@gmail.com</a>
 
-<p>
-    Halo! Perkenalkan nama Saya <b>MUHAMMAD IHSAN NUR TSAQIB</b> biasa dipanggil Ihsan lahir dan dibesarkan di Palembang. 
-    
-</p>
-<p>
-    Sekarang Saya sedang menempuh pendidikan S1 di <u>ITERA</u> prodi <i>Teknik Informatika.</i> 
-</p>
-    
-    <h2>BIODATA</h2>
+    </nav>
 
+    <div class="hero-container">
+        <h1 class="hero-text">PORTOFOLIO
+            <br />
+        </h1>
 
-    <table border="2">
-        <tr>
-            <td>
-                Nama
-            </td>
-            <td>
-                MUHAMMAD IHSAN NUR TSAQIB
-            </td>
-            
-        </tr>
-        <tr>
-            <td>
-                NIM
-            </td>
-            <td>
-                122140176
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Kelompok
-            </td>
-            <td>
-                4
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Jenis Kelamin
-            </td>
-            <td>
-                Laki-laki
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Alamat
-            </td>
-            <td>
-                Belwis, Lampung Selatan
-            </td>
-        </tr>
-        <tr>
-            <td>
-                TTL
-            </td>
-            <td>
-                PALEMBANG, 13 Janurari 2004
-            </td>
-        </tr>
+        <div class="hero-image-container">
+            <img src="Assets/foto.jpeg" 
+            alt="hero-image-ihsan" 
+            class="hero-image"/>
+        </div>
+    </div>
+
+    <div class="about-container">
+        <span style="font-weight: 900; color: gray; width: 100%; text-align: center;">▪︎Tentang Diri▪︎</span>
         
-    </table>
+        <h2 class="about-title">Halo! Perkenalkan nama Saya MUHAMMAD IHSAN NUR TSAQIB biasa dipanggil IHSAN </h2>
+
+        <p class="about-desc">Saya lahir dan dibesarkan di Palembang.
+            Sekarang Saya sedang menempuh pendidikan S1 di ITERA prodi Teknik Informatika.
+        </p>
+
+    </div>
+
+    <div class="line-1">
+        <hr />
+    </div>
+
+    <div class="skills">
+        <span style="font-weight: 909; color: gray; margin-top: 50px;">▪︎Skills▪︎</span>
+    
+        <div class="skill-image-container">
+            <h2 class="skill-title">
+                Saya mulai belajar ngoding setelah lulus SMA. Bahasa pemrograman yang saya pakai yaitu:
+            </h2>
+            <img src="Assets/page.jpg" 
+            alt="skill-da"
+            class="skill-image"/>
+        </div>
+        <p class="skill-desc">
+        HTML,CSS,C++,C# (unity)
+        
+        </p>
 
     
+    </div>
+    
+    <div class="line-2">
+        <hr />
+    </div>
 
-    <H2>
-        PENDIDIKAN
-    </H2>
+    <div class="pendidikan">
+        <h2 class="pendidikan-title">
+            PENDIDIKAN
+        </h2>
+        <div class="pendidikan-det">
+            <p>
+            ▶ SD MUHAMMADIYAH 1 PALEMBANG
+        </p>
+        <p>
+            ▶ SMP BINA ILMI PALEMBANG
+        </p>
+        <p>
+            ▶ SMA NEGERI 17 PALEMBANG
+        </p>
+        <p>
+            ▶ INSTITUT TEKNOLOGI SUMATERA (semester 3)
+        </p>
+        </div>
+        
+    </div>
 
-    <ol>
-        <li>
-            SD MUHAMMADIYAH 1 PALEMBANG
-        </li>
-        <LI>SMP BINA ILMI PALEMBANG</LI>
-        <LI>SMA NEGERI 17 PALEMBANG</LI>
-        <LI>INSTITUT TEKNOLOGI SUMATERA</LI>
-    </ol>
+    <div class="biodata">
+        <h2 class="BIODATA-title">
+            BIODATA
+        </h2>
+        <table class="biodata-table" border="1">
+            <tr>
+                <td>
+                    Nama
+                </td>
+                <td>
+                    MUHAMMAD IHSAN NUR TSAQIB
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    NIM
+                </td>
+                <td>
+                    122140176
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Kelompok
+                </td>
+                <td>
+                    14
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Jenis Kelamin
+                </td>
+                <td>
+                    Laki-laki
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Alamat
+                </td>
+                <td>
+                    Belwis, Lampung Selatan
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    TTL
+                </td>
+                <td>
+                    PALEMBANG, 13 Janurari 2004
+                </td>
+            </tr>
+            
+        </table>
+
+    </div>
+    
+    <footer class="footer-container">
+        <p class="pi">Portofolio Ihsan</p>
+
+        <div class="social-container">
+            <a href="https://wa.me/+6285783384970"class="icon-container">
+                <img src="Assets/whatsapp-svgrepo-com.svg" 
+                alt="whatsapp"
+                class="icon"/>
+            </a>
+            <a href="https://instagram.com/ihsanurts"class="icon-container">
+                <img src="Assets/instagram-svgrepo-com.svg" 
+                alt="instagram"
+                class="icon"/>
+            </a>
+            
+            
+        </div>
+    </footer>
 
     
-
-    <h2>
-        PENGALAMAN
-    </h2>
     
-    <p>
-        Bisa sedikit ngoding dengan:
-    </p>
 
-    <ul>
-        <li>
-            HTML
-        </li>
-        <li>
-            C++
-        </li>
-        <li>
-            C# (Unity)
-        </li>
-    </ul>
-
-    <h2>
-        KONTAK
-    </h2>
-
-    <ul>
-        <li>
-            <a href="https://wa.me/+6285783384970">Whatsapp</a>
-        </li>
-        <li>
-            <a href="https://instagram.com/ihsanurts">Instagram</a>
-        </li>
-    </ul>
+    
 
 </body>
 </html>
